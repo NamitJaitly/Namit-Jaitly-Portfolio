@@ -58,14 +58,14 @@ header nav {
   position: relative;
   z-index: 3;
 }
-.mobile-nav{
+.mobile-nav {
   display: none;
   font-size: 20px;
   position: relative;
   z-index: 3;
   cursor: pointer;
 }
-.mobile-menu{
+.mobile-menu {
   position: fixed;
   z-index: 11;
   left: 0;
@@ -75,28 +75,28 @@ header nav {
   background-color: #fffffff0;
   overflow: hidden;
 }
-.mobile-menu ul{
+.mobile-menu ul {
   width: 100%;
 }
-.mobile-menu ul li{
+.mobile-menu ul li {
   width: 100%;
   padding: 10px 16px;
   border-bottom: 1px solid rgb(218, 218, 218);
   font-size: 13px;
   font-family: var(--font-gurmukhi);
 }
-.mobile-menu.opened{
+.mobile-menu.opened {
   top: 0;
   transition: 400ms;
 }
-.close-mobile-menu{
+.close-mobile-menu {
   padding: 10px;
   display: flex;
   justify-content: flex-end;
-  font-size: 18px; 
+  font-size: 18px;
   cursor: pointer;
 }
-.mobile-menu a{
+.mobile-menu a {
   color: var(--text-color);
 }
 nav ul li {
@@ -269,7 +269,7 @@ p.visible {
   }
 }
 
-/* @keyframes update-rotate {
+@keyframes update-rotate {
   0% {
     transform: translateY(calc(var(--height-rotator) * 6));
   }
@@ -291,7 +291,7 @@ p.visible {
   100% {
     transform: translateY(calc(var(--height-rotator) * 12));
   }
-} */
+}
 
 /* animation ends */
 
@@ -399,31 +399,31 @@ p.visible {
   z-index: 2;
   padding: 20px;
 }
-.slider-header{
+.slider-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.slider-wrapper h2{
+.slider-wrapper h2 {
   font-size: 24px;
   font-family: var(--font-gurmukhi);
   font-weight: 400;
   line-height: 100%;
 }
-.image-section-wrapper{
+.image-section-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.profile-image-wrapper{
+.profile-image-wrapper {
   height: 300px;
   width: 250px;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid black;
 }
-.profile-image-wrapper img{
+.profile-image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -553,7 +553,8 @@ main .section-subheading {
 }
 footer {
   padding: 40px 30px;
-  background: linear-gradient(rgb(237, 186, 237), transparent), linear-gradient(rgb(177, 207, 255), #ffecfe)
+  background: linear-gradient(rgb(237, 186, 237), transparent),
+    linear-gradient(rgb(177, 207, 255), #ffecfe);
 }
 footer .footer-wrapper {
   display: grid;
@@ -605,7 +606,7 @@ textarea {
   transition: 200ms;
   background: linear-gradient(#ff63ff, #428aff);
 }
-.footer-heading{
+.footer-heading {
   padding: 1rem;
   margin-bottom: 20px;
 }
@@ -613,19 +614,19 @@ textarea {
   font-size: 2rem;
   font-family: var(--font-gurmukhi);
   font-weight: 600;
-  border-bottom: 1px solid gray ;
+  border-bottom: 1px solid gray;
 }
-.skills{
+.skills {
   margin-top: 20px;
   padding: 20px 0;
-  height: calc(100Vh - 353px);
+  height: calc(100vh - 353px);
   overflow: auto;
 }
-.skills h2{
+.skills h2 {
   font-weight: 500;
   font-size: 22px;
 }
-.skills p{
+.skills p {
   font-size: 14px;
   line-height: 130%;
 }
@@ -698,7 +699,7 @@ textarea {
   header .desktop-nav {
     display: none;
   }
-  .mobile-nav{
+  .mobile-nav {
     display: block;
   }
   header .name-logo img {
@@ -713,13 +714,13 @@ textarea {
   #contacts-slider.opened {
     width: 250px;
   }
-  .slider-wrapper{
+  .slider-wrapper {
     padding: 20px 10px;
   }
-  .slider-wrapper h2{
+  .slider-wrapper h2 {
     font-size: 16px;
   }
-  .profile-image-wrapper{
+  .profile-image-wrapper {
     height: 200px;
     width: 150px;
     border-radius: 8px;
@@ -729,11 +730,11 @@ textarea {
   .inner-rotate {
     width: 185px;
   }
-  .main-tagline p{
+  .main-tagline p {
     font-size: 14px;
     margin-right: 8px;
   }
-  .rotating-content p{
+  .rotating-content p {
     font-size: 14px;
   }
   .more-section {
@@ -745,7 +746,7 @@ textarea {
   .bio-section {
     padding: 20px 0;
   }
-  .bio-section .section-h1-wrapper{
+  .bio-section .section-h1-wrapper {
     max-width: 100%;
     padding: 0 10px;
   }
@@ -802,20 +803,20 @@ textarea {
   footer {
     padding: 10px;
   }
-  footer .footer-wrapper{
+  footer .footer-wrapper {
     grid-template-columns: 1fr;
   }
-  .inner-grid{
+  .inner-grid {
     gap: 10px;
   }
-  .form-field{
+  .form-field {
     padding-right: 0px;
   }
-  .gallery-item a p{
+  .gallery-item a p {
     font-size: 20px !important;
   }
 }
-.copyright{
+.copyright {
   background-color: #000;
   color: #fff;
 }
